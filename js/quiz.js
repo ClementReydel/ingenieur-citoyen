@@ -8,6 +8,8 @@ function shuffleArray(array) {
 let currentQuestionIndex = 0;
 let score = 0;
 
+document.getElementById("progress-text").textContent = `Question 1 sur ${questions.length}`;
+
 function loadQuestion() {
     document.getElementById("result").textContent = "";
     document.getElementById("next").style.display = "none";
@@ -27,6 +29,8 @@ function loadQuestion() {
         button.onclick = () => checkAnswer(button, answer.correct, answer.explanation);
         optionsDiv.appendChild(button);
     });
+
+    document.getElementById("progress-text").textContent = `Question ${currentQuestionIndex + 1} sur ${questions.length}`;
 }
 
 function checkAnswer(selectedButton, isCorrect, explanation) {
