@@ -49,7 +49,7 @@ function checkAnswer(selectedButton, isCorrect, explanation) {
         resultElement.style.color = "green";
         score++;
     } else {
-        resultElement.innerHTML = `❌ Mauvaise réponse. ${explanation}<br><br>✅ Bonne réponse : ${correctAnswer.explanation}`;
+        resultElement.innerHTML = `❌ Mauvaise réponse. ${explanation}<br><br>✅ Explication de la bonne réponse : ${correctAnswer.explanation}`;
         resultElement.style.color = "red";
     }
     document.getElementById("next").style.display = "block";

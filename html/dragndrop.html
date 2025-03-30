@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activité Drag & Drop</title>
+    <link rel="stylesheet" href="../css/dragndrop.css">
+</head>
+<body>
+    <a href="accueil.html" class="back-button">🏠 Accueil</a>
+    <h1>Drag & Drop : Classifiez les objets !</h1>
+    <p>Glissez-déposez les éléments dans la bonne catégorie.</p>
+    
+    <div class="container">
+        <div id="items">
+            <div class="draggable" draggable="true" id="phishing">Phishing</div>
+            <div class="draggable" draggable="true" id="firewall">Pare-feu</div>
+            <div class="draggable" draggable="true" id="virus">Virus</div>
+            <div class="draggable" draggable="true" id="https">HTTPS</div>
+            <div class="draggable" draggable="true" id="ransomware">Ransomware</div>
+            <div class="draggable" draggable="true" id="vpn">VPN</div>
+            <div class="draggable" draggable="true" id="trojan">Trojan</div>
+            <div class="draggable" draggable="true" id="2fa">Authentification 2FA</div>
+        </div>
+        <div class="drop-zone" id="good-practices">Bonnes Pratiques</div>
+        <div class="drop-zone" id="threats">Menaces</div>
+    </div>
+
+    <script src="../js/dragndrop.js"></script> 
+</body>
+</html>

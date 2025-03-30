@@ -171,7 +171,7 @@ const questions = [
         question: "Que peut-on faire lorsqu'on reçoit un message suspect demandant de cliquer sur un lien ?",
         answers: [
             { text: "Cliquer sur le lien pour voir si c'est vraiment dangereux", correct: false, explanation: "Cliquer sur des liens suspects est exactement ce que recherchent les cybercriminels." },
-            { text: "Contacter directement l'expéditeur supposé par un autre moyen pour vérifier", correct: true, explanation: "Il est préférable de vérifier l'authenticité du message par téléphone ou via le site officiel." },
+            { text: "Vérifier l'authenticité de l'expéditeur, puis vérifier le lien grâce à un vérificateur de lien", correct: true, explanation: "Il est préférable de vérifier l'authenticité du message par téléphone ou via le site officiel." },
             { text: "Transférer le message à tous vos contacts pour les avertir", correct: false, explanation: "Transférer le message pourrait propager l'arnaque à d'autres personnes." }
         ]
     },
