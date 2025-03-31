@@ -26,6 +26,7 @@ h1 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    width: 300px;
 }
 .activity:hover {
     background: #0056b3;
