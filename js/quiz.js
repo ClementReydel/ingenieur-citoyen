@@ -36,6 +36,9 @@ function loadQuestion() {
 function checkAnswer(selectedButton, isCorrect, explanation) {
     const resultElement = document.getElementById("result");
     const buttons = document.querySelectorAll(".options button");
+
+    selectedButton.classList.add("selected");
+    
     buttons.forEach(btn => {
         btn.disabled = true;
         let correctAnswer = questions[currentQuestionIndex].answers.find(a => a.correct);
